@@ -8,9 +8,9 @@ Instruction for the Hindi Transliteration Model
 Before passing this data directly to the model. I have converted this xml file into the pandas data frame to ease the pre-processing.
 In last of notebook, I have shown some examples to showcase the results.
 As the data from training the model was less therefore model need to run for more epochs.
-for 100 epoch’s the BLEU Score: 0.4131308522495705
-for 200 epoch’s the BLEU Score: 0.5087270435881411
 
+for 100 epoch’s the BLEU Score: 0.4131308522495705<br>
+for 200 epoch’s the BLEU Score: 0.5087270435881411<br>
 so, as the epoch’s are increasing the accuracy of the model is also increasing.
 
 
