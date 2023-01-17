@@ -21,3 +21,27 @@ NEWS2018_M-EnHi_trn.xml 	NEWS2018_M-EnHi_dev.xml  	NEWS2018_M-EnHi_tst.xml
 	train data 		validate data			test data
 
 </pre>
+<b>3. work flow</b>
+<pre>
+read the data from the xml file and convert it into the pandas data frame 
+converting sentence from the data frame into the characters to see the frequency 
+then we will convert these char into id's 
+converting the ids into vector matrix
+
+<b>Making the RNN model</b>
+1.Encoding layer
+2.Decording layer
+3.Dropout for regularization
+4.Dense layer
+5.output layer with optimizer as Adam learning rate=0.0001
+
+passing the data into list form as (eng_word,hindi_word) and splitting it into 95% and 5% for training and validation.
+running the model for 200 epochs’
+
+<b>making a test function (transliterate (input English word))</b>
+1.converting the word into the id
+2.passing ids to the RNN model
+3.we will get the predicted output into the id format 
+4.convert back these ids into the Hindi word
+
+</pre>
